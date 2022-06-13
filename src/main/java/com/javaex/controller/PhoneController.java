@@ -30,7 +30,7 @@ public class PhoneController {
 	public String update(@ModelAttribute PersonVo personVo) {
 		System.out.println("update 진입");
 		
-		System.out.println(personVo);
+		System.out.println(personVo); 
 		
 		PhoneDao phoneDao = new PhoneDao();
 		phoneDao.personUpdate(personVo);
