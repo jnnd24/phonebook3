@@ -36,7 +36,7 @@
 		<br>
 	</c:forEach>
 	
-	<a href="">추가 등록하기</a>
+	<a href="./writeForm">추가 등록하기</a>
 	
 
 </body>

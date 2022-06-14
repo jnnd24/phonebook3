@@ -17,7 +17,7 @@
 	</p>
 	
 	<form action="./update" method="get">
-		<input type="text" name="personId" value="${personVo.personId }"><br>
+		<input type="hidden" name="personId" value="${personVo.personId }"><br>
 		<!-- personVo의 이름을 따라기기위해 updateForm에서만 personId사용 -->
 		<label for="pName">이름(name)</label>
 		<input id="pName" type="text" name="name" value="${personVo.name }"><br>
